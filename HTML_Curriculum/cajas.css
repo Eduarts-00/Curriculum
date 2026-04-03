@@ -1,0 +1,15 @@
+.mi-caja {
+    border: 2px solid #00d1b2; /* borde de algo */
+    padding: 20px;             /* Espacio dentro de la caja */
+    margin: 10px;              /* Espacio fuera de la caja */
+    background-color: #247bc2;    /* Color de fondo de la caja */
+    width: 100%auto;              /* Ancho de la caja */
+}
+
+.mi-caja2 {
+    border: 4px solid #d17000;
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(207, 210, 30);
+    width: auto;
+}
