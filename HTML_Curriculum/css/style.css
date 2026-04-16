@@ -1,5 +1,5 @@
-/* Reseteo básico */
-* { box-sizing: border-box; margin: 0; padding: 0; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; } /* reseteo css para que en todos los dispositivos comience desde cero y asi verse igual en todos los lados*/
 
 body {
     background-color: #2f3542;
@@ -19,7 +19,6 @@ body {
     flex-direction: column;
 }
 
-/* cabecera con foto circular */
 .cabecera {
     display: flex;
     align-items: center;
@@ -59,8 +58,8 @@ body {
     padding: 20px 0 20px 20px;
 }
 
-/* estilos de secciones */
-h2 {
+
+h2 { /* estilos de secciones */
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -72,12 +71,19 @@ ul {
     margin-bottom: 10px;
 }
 
-/* Pie de página */
 .pie-pagina {
-    margin-top: auto; /* lo empuja al final de la hoja */
+    margin-top: auto; 
     border-top: 2px solid #333;
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
     font-size: 0.9rem;
+}
+
+/* tamaño de los iconos de contacto*/
+.icono-svg { 
+    width: 20px;
+    height: 20px;
+    display: inline-block; /*para que no se junten*/
+    vertical-align: middle;
 }

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Teemo - Explorador de Bandle</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,16 +25,16 @@
         <main class="cuerpo-cv">
             <aside class="columna-izquierda">
                 <section>
-                    <h2>Tecnologías</h2>
-                    <ul>
+                    <h2 class="h4 text-uppercase fw-bold">Tecnologías</h2>
+                    <ul class="list-unstyled ms-3">
                         <li>Venenos Neurotóxicos.</li>
                         <li>Armamento Neumático.</li>
                         <li>Camuflaje de guerrilla.</li>
                     </ul>
                 </section>
                 <section>
-                    <h2>Cursos</h2>
-                    <ul>
+                    <h2 class="h4 text-uppercase fw-bold">Cursos</h2>
+                    <ul class="list-unstyled ms-3">
                         <li>Supervivencia y Evasión.</li>
                         <li>Tácticas de sigilo.</li>
                         <li>Cartografía.</li>
@@ -40,8 +42,8 @@
                     </ul>
                 </section>
                 <section>
-                    <h2>Certificaciones</h2>
-                    <ul>
+                    <h2 class="h4 text-uppercase fw-bold">Certificaciones</h2>
+                    <ul class="list-unstyled ms-3">
                         <li>Líder de Los Exploradores de Bandle.</li>
                     </ul>
                 </section>
@@ -49,21 +51,30 @@
 
             <section class="columna-derecha">
                 <article>
-                    <h2>Antecedentes Académicos</h2>
+                    <h2 class="h4 text-uppercase fw-bold">Antecedentes Académicos</h2>
                     <p>Academia de Exploradores de Bandle - Especialidad en Toxicología.</p>
                 </article>
                 <article>
-                    <h2>Antecedentes Laborales</h2>
+                    <h2 class="h4 text-uppercase fw-bold">Antecedentes Laborales</h2>
                     <p>Capitán de las Fuerzas Especiales y Responsable de la Defensa de la Ciudad de Bandle.
                     </p>
                 </article>
             </section>
         </main>
 
-        <footer class="pie-pagina">
-            <div class="contacto">📧 explorador_veloz@yordle.lol</div>
-            <div class="contacto">📱 +56 987654321</div>
-            <div class="contacto">🌐 @ teemo_colita_de_algodon</div>
+        <footer class="pie-pagina d-flex justify-content-around align-items-center py-4">
+            <div class="contacto d-flex align-items-center">
+                <img src="assets/envelope-at.svg" alt="Email" class="icono-svg me-2">
+                explorador_veloz@yordle.lol
+            </div>
+            <div class="contacto d-flex align-items-center">
+                <img src="assets/telephone.svg" alt="Teléfono" class="icono-svg me-2">
+                +56 987654321
+            </div>
+            <div class="contacto d-flex align-items-center">
+                <img src="assets/instagram.svg" alt="Instagram" class="icono-svg me-2">
+                @teemo_colita_de_algodon
+            </div>
         </footer>
 
     </div>
